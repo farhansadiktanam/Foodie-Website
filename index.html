@@ -11,7 +11,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./styles/style.css" />
+    <script src="./js/main.js"></script>
   </head>
   <body>
     <!-- HEADER SECTION -->
@@ -168,9 +173,46 @@
           </div>
         </div>
       </section>
+
+      <section>
+        <div class="wrapper p-top flex gap-3">
+          <div class="image-container">
+            <img src="./images/delivery-boy-with-phone.png" alt="" />
+          </div>
+
+          <div class="content">
+            <h5>Our Review</h5>
+            <h2>What They Say?</h2>
+            <!-- Swiper -->
+            <div class="review-container">
+              <div class="flex gap-2">
+                <div class="profile">
+                  <img src="./images/profile1.jpeg" alt="" />
+                </div>
+                <div>
+                  <h4>Guy Hawkins</h4>
+                  <div class="mt-half">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+                <p>
+                  Foodie is the best. Besides the many delicious meals, the
+                  service is also very good. especially very fast delivery. I
+                  highly recommend Foodie to you.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- FOOTER SECTION -->
     <footer></footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
   </body>
 </html>
